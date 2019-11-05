@@ -205,6 +205,8 @@ input[type='checkbox']+label.triangle::before{
     margin-right:7px;
     width:20px;
     height:20px;
+    stroke:#ff4e00;
+    stroke-width:42px;
 }
 .table-header-search{
     position:relative;
