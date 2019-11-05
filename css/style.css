@@ -23,15 +23,11 @@ h1,h2,h3,h4,h5,h6{
 .header{
     display:flex;
     align-items:center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom:20px;
 }
 .header-logo{
     display:flex;
-    margin-left:240px;
-}
-.header-info{
-    margin-right:230px;
 }
 .header-title,.header-info-text{
     font-size:22px;
@@ -50,10 +46,11 @@ background:url('https://cursor.education/static/images/logo-white.png');
 }
 /*==============Main================== */
 .main{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
+    padding:20px;
+    margin-bottom:20px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
 }
 /*===========-==Table==================*/
 .table-block{
@@ -253,7 +250,7 @@ input[type='checkbox']+label.triangle::before{
     font-size:11px;
     color:#707070;
     position:absolute;
-    bottom:40px;
+    bottom:20px;
     left:50%;
     transform:translateX(-50%)
 }
