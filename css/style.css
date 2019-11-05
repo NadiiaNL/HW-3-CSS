@@ -23,9 +23,17 @@ h1,h2,h3,h4,h5,h6{
 .header{
     display:flex;
     align-items:center;
+    justify-content: space-between;
     margin-bottom:20px;
 }
-.header-title{
+.header-logo{
+    display:flex;
+    margin-left:240px;
+}
+.header-info{
+    margin-right:230px;
+}
+.header-title,.header-info-text{
     font-size:22px;
     text-transform: uppercase;
     margin-left:15px;
@@ -33,7 +41,7 @@ h1,h2,h3,h4,h5,h6{
 .header-img{
     width:30px;
     height:30px;
-    background:url('https://cursor.education/static/images/logo-white.png');
+background:url('https://cursor.education/static/images/logo-white.png');
     background-size:cover;
 }
 .text-white{
